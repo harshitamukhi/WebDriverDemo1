@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-28T18:25:31 IST" name="Suite" finished-at="2025-02-28T18:27:04 IST" duration-ms="93648">
+    <groups>
+      <group name="Sanity">
+        <method signature="RegistrationTest.verify_registration()[pri:0, instance:testCases.RegistrationTest@1c39680d]" name="verify_registration" class="testCases.RegistrationTest"/>
+      </group> <!-- Sanity -->
+    </groups>
+    <test started-at="2025-02-28T18:25:31 IST" name="Test" finished-at="2025-02-28T18:27:04 IST" duration-ms="93648">
+      <class name="testCases.RegistrationTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.RegistrationTest@1c39680d]" started-at="2025-02-28T18:25:33 IST" name="setup" finished-at="2025-02-28T18:26:48 IST" duration-ms="74942" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_registration()[pri:0, instance:testCases.RegistrationTest@1c39680d]" started-at="2025-02-28T18:26:49 IST" name="verify_registration" finished-at="2025-02-28T18:26:58 IST" duration-ms="9257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_registration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.RegistrationTest@1c39680d]" started-at="2025-02-28T18:26:58 IST" name="tearDown" finished-at="2025-02-28T18:27:04 IST" duration-ms="6464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.RegistrationTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
